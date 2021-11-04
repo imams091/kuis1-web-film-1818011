@@ -62,7 +62,7 @@ $('#movie-list').on('click', '.see-detail', function () {
         type: 'get',
         url: 'http://www.omdbapi.com',
         data: {
-            'apikey': 'aa46e00f',
+            'apikey': 'c9019757',
             'i': $(this).data('id')
         },
         dataType: 'json',
